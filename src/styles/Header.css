@@ -1,0 +1,34 @@
+.navbar {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(10, 10, 10, 0.95));
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(0.625rem); 
+  border-bottom: 0.125rem solid rgba(0, 255, 255, 0.6); /*quitar*/
+  box-shadow: 0rem 0rem 0.938rem rgba(0, 255, 255, 0.3);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #0ff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+  text-shadow: 0rem 0rem 0.313rem rgba(0, 255, 255, 0.6);
+}
+
+nav a:hover {
+  color: #FFFFFF;
+  text-shadow: 0rem 0rem 0.938rem rgba(255, 0, 255, 0.8);/*quitar*/
+  transform: scale(1.05);
+}

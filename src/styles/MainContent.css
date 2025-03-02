@@ -1,0 +1,90 @@
+.main-content{
+  text-align: center;
+  color: #fff;
+  background: #111;
+  padding: 4rem 0;
+}
+
+.main-content h1, .main-content h2{
+  margin: 0.5rem 0;
+  
+}
+
+@keyframes rainbow {
+  0% { color: #3399ff; } /* Azul */
+  14% { color: #3399cc; }
+  28% { color: #3399aa; }
+  42% { color: #339988; }
+  57% { color: #339966; }
+  71% { color: #339944; }
+  85% { color: #339922; }
+  100% { color: #3399ff; }
+}
+
+.rainbow-text {
+  animation: rainbow 3.5s infinite linear;
+}
+
+
+.intro-paragraphs {
+  margin-top: 0.5rem;
+  margin: 0 auto;
+  max-width: 37.5rem ;
+}
+
+.intro-paragraphs p {
+  margin: 0.5rem 0;
+  text-align: left;
+  text-shadow: 0rem 0rem 0.313rem rgba(0, 255, 255, 0.6);
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  text-align: left;
+  
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1.5rem;
+}
+
+.icons a{
+  color: #0ff;
+  text-decoration: none;
+  border: 0.063rem solid #0ff;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0px 0px 0.625rem rgba(0, 255, 255, 0.8);
+  font-size: 1.2rem;
+  padding: 0.25rem;
+}
+
+.icons a:hover{
+  background-color: rgba(0, 255, 255, 0.2);
+  box-shadow: 0rem 0rem 0.938rem  rgba(0, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 0.063rem ;
+  box-shadow: 0rem 0rem 0.938rem  rgba(0, 255, 255, 0.7);
+}
+

@@ -1,0 +1,80 @@
+.project {
+  background: #222;
+  border: 0.063rem solid #00aaff;
+  border-radius: 0.625rem;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 40rem;
+  text-align: left;
+  box-shadow: 0rem 0rem 0.938rem rgba(0, 170, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0rem 0rem 1.563rem rgba(0, 170, 255, 0.9);
+}
+
+.project ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.project h3 {
+  margin-top: 0;
+  background: linear-gradient(90deg, #00ffff, #ff00ff, #00ff00, #00ffff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: holo-glow 6s infinite linear;
+}
+
+@keyframes holo-glow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.tech-icons{
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-badge{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #222;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0rem 0rem 0.75rem rgba(0, 170, 255, 0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-badge svg {
+  font-size: 2rem; 
+  
+}
+
+.project-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #00aaff;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 1.5rem;
+ 
+}
+
+.project-button:hover {
+  background-color: #0055aa;
+}

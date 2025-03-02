@@ -6,8 +6,6 @@ import Project from './components/Project';
 import Technologies from './components/Technologies';
 import './App.css';
 
-
-
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0); 

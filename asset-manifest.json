@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.72193e1e.css",
-    "main.js": "/static/js/main.189b507d.js",
-    "static/js/488.c5a7233e.chunk.js": "/static/js/488.c5a7233e.chunk.js",
-    "static/media/Curriculum.pdf": "/static/media/Curriculum.f86d314b886ea15c62c5.pdf",
-    "static/media/fotoJose.jpeg": "/static/media/fotoJose.f2b6ce37d1d669927548.jpeg",
-    "index.html": "/index.html",
-    "main.72193e1e.css.map": "/static/css/main.72193e1e.css.map",
-    "main.189b507d.js.map": "/static/js/main.189b507d.js.map",
-    "488.c5a7233e.chunk.js.map": "/static/js/488.c5a7233e.chunk.js.map"
+    "main.css": "/PortafolioR/static/css/main.72193e1e.css",
+    "main.js": "/PortafolioR/static/js/main.7f346b32.js",
+    "static/js/488.c5a7233e.chunk.js": "/PortafolioR/static/js/488.c5a7233e.chunk.js",
+    "static/media/Curriculum.pdf": "/PortafolioR/static/media/Curriculum.f86d314b886ea15c62c5.pdf",
+    "static/media/fotoJose.jpeg": "/PortafolioR/static/media/fotoJose.f2b6ce37d1d669927548.jpeg",
+    "index.html": "/PortafolioR/index.html",
+    "main.72193e1e.css.map": "/PortafolioR/static/css/main.72193e1e.css.map",
+    "main.7f346b32.js.map": "/PortafolioR/static/js/main.7f346b32.js.map",
+    "488.c5a7233e.chunk.js.map": "/PortafolioR/static/js/488.c5a7233e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72193e1e.css",
-    "static/js/main.189b507d.js"
+    "static/js/main.7f346b32.js"
   ]
 }

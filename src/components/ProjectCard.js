@@ -6,7 +6,7 @@ import '../styles/ProjectCard.css';
 
 
 
-const ProjectCard = ({title,description,features,technologies,link}) => {
+const ProjectCard = ({title,description,features,technologies,repoLink}) => {
   return(
     <div className="project">
       <h3>{title}</h3>
@@ -29,7 +29,7 @@ const ProjectCard = ({title,description,features,technologies,link}) => {
           </span>
         ))}
       </div>
-      <a href={link} className="project-button">
+      <a href={repoLink} className="project-button">
         <FontAwesomeIcon icon={faGithub}/>Go to project <FaChevronRight/>
       </a>
     </div>
